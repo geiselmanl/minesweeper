@@ -1,0 +1,100 @@
+
+body {
+display: grid;
+place-items: center;
+justify-content: center;
+margin: 0px;
+background-color: rgb(237, 233, 233);
+  }
+
+#info-bar{
+    font-family: 'Courier New', Courier, monospace;
+}
+  #game-options {
+    width: 162px;
+    height: 33x;
+    
+    background-color: gray;
+
+    
+    display: flex;
+    flex-wrap: wrap;
+
+  }
+
+  .button{
+    width: 33;
+    height: 100x;
+    margin: 25px;
+    display: center;
+    font-family: 'Courier New', Courier, monospace;
+  }
+
+  #game-board{
+    background-color: lightgrey;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0px;
+  }
+
+  .board{
+    width: 180px;
+    height: 180px;
+  }
+
+  .board-medium{
+    width: 320px;
+    height: 320px;
+  }
+
+  .board-advanced{
+    width: 440px;
+    height: 440px;
+  }
+
+.square{
+    width: 16px;
+    height:16px;
+    font-size: 10px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    border: 1px solid black;
+    background-color: darkgrey;
+    margin: 1px;
+   
+}
+
+.square-pressed{
+
+    width: 16px;
+    height:16px;
+    font-size: 10px;
+    border: 1px solid black;
+    background-color: rgb(232, 229, 229);
+    margin: 1px;
+    font-family: "Lucida Console", "Courier New", monospace;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.red-square{
+    width: 16px;
+    height:16px;
+    font-size: 10px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: red;
+    margin: 1px;
+}
+
+
+
+
+
+
